@@ -1,0 +1,28 @@
+{
+    "name": "alvarogarcia7/character-copy-kata",
+    "description": "",
+    "require-dev": {
+        "php": "^7.0",
+        "phpunit/phpunit": "^6.5"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "authors": [
+        {
+            "name": "Alvaro Garcia"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "": ["src/"]
+        }
+    },
+    "require": {
+        "hirak/prestissimo": "^0.3.9"
+    }
+}
